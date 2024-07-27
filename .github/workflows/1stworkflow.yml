@@ -1,0 +1,16 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: print yuvraj
+        run: echo "hey"
+      - name: print aman
+        run: echo "hey2"
+        
+    
+    
+      
+   
+  
